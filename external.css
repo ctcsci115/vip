@@ -1,0 +1,81 @@
+body {
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+caption {
+
+    font-size: xx-large;
+}
+
+.navbar {
+
+    background-color: rgb(57, 40, 24);
+    position: fixed;
+    bottom: 0;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 97%;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 15px 22px;
+    border-right: 3px solid #bbb;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+}
+
+.active {
+    background-color: rgb(142, 176, 240);
+    margin-right: 15px;
+}
+
+#header {
+    background-color: rgb(170, 171, 172);
+    font-size: 33px;
+    color: rgb(57, 40, 24);
+    padding: 2px 10px;
+    text-align: left;
+    border-bottom: rgb(57, 40, 24) thick double;
+}
+
+.flex-container {
+    background-color: rgb(189, 193, 189);
+    display: flex;
+    height: 300px;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 95px;
+}
+
+.flex-container>div {
+    color: rgb(57, 40, 24);
+    text-align: center;
+    font-size: large;
+    padding: 40px 30px;
+
+}
